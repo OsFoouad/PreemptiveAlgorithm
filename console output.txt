@@ -1,0 +1,38 @@
+Welcome to Preemptive Scheduling Algorithm
+1 - Run with the Example 
+2 - Run with Differnt problem
+Enter your choice number : Release Times   :  [0, 15, 20]
+Period Times    :  [60, 60, 60]
+Execution Times :  [25, 10, 15]
+Deadline Times  :  [50, 40, 60]
+=======================================
+The first round :-->
+Task 1 is processing now
+Task 1 interrupted by task 2 , with remain Execution time : 10 
+Task 2 is processing now
+Task 2 interrupted by task 3 , with remain Execution time : 5 
+Task 3 is processing now
+Task 3 has been finished
+----------------------------------------
+* * * * * Scheduling details * * * * *
+The remaining execution time is :[10, 5, 0]
+Unfinished Tasks                : [1, 2]
+=======================================
+New Round :-->
+Task 1 paused with remain Execution time 10
+Task 2 is processing now
+Task 2 has been finished
+----------------------------------------
+* * * * * Scheduling details * * * * *
+The remaining execution time is :[10, 0, 0]
+Unfinished Tasks                :[1]
+=======================================
+New Round :-->
+Task 1 is processing now
+Task 1 has been finished
+----------------------------------------
+* * * * * Scheduling details * * * * *
+The remaining execution time is :[0, 0, 0]
+Unfinished Tasks                :[]
+=======================================
+All Tasks has been Preemptively schedualed
